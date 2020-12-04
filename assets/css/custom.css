@@ -334,6 +334,38 @@ section h3 {
     font-weight: bold;
  }
 
+/* BLOG */
+
+.post {
+    position: relative;
+    background: white;
+    border: solid 1px #ddd;
+    margin: 0 0 40px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.post header,
+.post .post-excerpt {
+    padding: 20px;
+}
+
+.post header h1,
+.post header h3 {
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: solid 1px #ddd;
+}
+
+.post header h1 {
+    font-size: 24px;
+}
+
+.post-image {
+    height: auto;
+}
+
 blockquote {
     padding: 0;
     border: none;
