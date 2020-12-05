@@ -366,6 +366,11 @@ section h3 {
     height: auto;
 }
 
+.post-details {
+    font-size: 12px;
+    width: 90%;
+}
+
 blockquote {
     padding: 0;
     border: none;
