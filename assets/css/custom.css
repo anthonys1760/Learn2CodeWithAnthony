@@ -377,7 +377,8 @@ section h3 {
 }
 
 .post header,
-.post .post-excerpt {
+.post .post-excerpt,
+.post .post-body {
     padding: 20px;
 }
 
@@ -540,6 +541,12 @@ i.ci {
 
 .ci.ci-device {
     background-position: -200px 0;
+}
+
+/* Blog Post Padding from top */
+
+.blog {
+    padding-top: 30px;   
 }
 
 /* FORMS */
