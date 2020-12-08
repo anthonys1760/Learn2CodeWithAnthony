@@ -206,6 +206,10 @@ section {
     padding: 80px 0px;
 }
 
+section.main-content {
+    padding: 40px 0;
+}
+
 .section-header {
     text-align: center;
 }
@@ -393,7 +397,7 @@ section h3 {
 
 .comment {
     border: solid 1px #ddd;
-    background: url('../img/tile.jpg') top left repeat;
+    background: white;
 }
 
 .post header h1,
@@ -560,6 +564,18 @@ blockquote:before {
     border-top: solid 1px #eee;
 }
 
+/* Resources */
+
+.resource {
+    width: 31.33333333%;
+    float: left;
+    margin: 0 3% 40px 0;
+}
+
+.resource:nth-child(3n) {
+    margin-right: 0;
+}
+
 /* CUSTOM ICON SPRITES */
 
 i.ci {
@@ -646,6 +662,12 @@ textarea {
     #featurette iframe {
         height: 240px;
     }
+
+    .resource {
+        width: 48%;
+        margin-right: 2%;
+        min-height: 800px;
+    }
 }
 
 @media screen and (max-width: 568px) {
@@ -662,6 +684,14 @@ textarea {
     .num-content {
         position: relative;
         top: 30px;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .resource {
+        width: 100%;
+        margin-right: 0;
+        min-height: 0;
     }
 }
 
