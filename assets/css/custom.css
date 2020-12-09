@@ -198,6 +198,8 @@ img {
 
 /* LAYOUT */
 
+
+
 .row + .row {
     margin-top: 20px;
 }
@@ -287,9 +289,9 @@ section h3 {
     color: white;
 }
 
-#instructor {
+/* #instructor {
     background: white url('../img/brad-elvis.png') 90% -10px no-repeat;
-}
+} */
 
 #instructor h2 {
     margin: 0 0 20px;
@@ -723,4 +725,19 @@ button[type="submit"]:hover {
         min-height: 0;
     }
 }
+
+
+/*Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo {
+        position: relative;
+        top: 15px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .container {
+        text-align: center;
+    }
+} 
 
