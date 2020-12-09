@@ -14,7 +14,7 @@ This is my brand new coding platform where I will teach beginners and bootcamp s
 - Full Scale Blog 
 - Resources page with downloadable content
 
-## Steps to execute this calculator:
+## Steps to execute this Website:
 - Download the entire code 
 - Open up the index.html.
 - [View Live Form](https://github.com/anthonys1760/Learn2CodeWithAnthony)
